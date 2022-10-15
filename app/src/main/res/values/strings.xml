@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">unitconverter</string>
+    <string name="result">CONVERTED UNIT IS %\s</string>
+</resources>
