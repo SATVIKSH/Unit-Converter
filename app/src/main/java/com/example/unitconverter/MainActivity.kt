@@ -44,7 +44,7 @@ fun MainApp(modifier: Modifier=Modifier) {
     var userInput by remember { mutableStateOf("") }
     var result by remember { mutableStateOf("") }
     Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center) {
-    Text(text = "UNIT CONVERTER", fontFamily = FontFamily.Cursive,fontSize=50.sp)
+    Text(text = "UNIT CONVERTER",fontSize=35.sp,fontWeight= Bold)
         Spacer(Modifier.height(30.dp))
         
         OutlinedTextField(value =userInput , onValueChange = {userInput=it},placeholder={Text(text="ENTER INPUT VALUE")})
